@@ -15,7 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bgboard/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@bgboard/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@bgboard/review/data-access-games": [
+        "libs/review/data-access-games/src/index.ts"
+      ],
+      "@bgboard/review/feature-details": [
+        "libs/review/feature-details/src/index.ts"
+      ],
+      "@bgboard/review/feature-list": ["libs/review/feature-list/src/index.ts"],
+      "@bgboard/review/ui-tile": ["libs/review/ui-tile/src/index.ts"],
+      "@bgboard/review/util-formatters": [
+        "libs/review/util-formatters/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

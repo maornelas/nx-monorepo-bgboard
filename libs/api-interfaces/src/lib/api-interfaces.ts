@@ -7,6 +7,13 @@ export interface Game {
   rating?: number;
   reviews?: Array<Review>;
 }
+
+export interface Test {
+  nums: Array<number>;
+  strings: Array<string>;
+  // comment: boolean[];
+}
+
 export interface Review {
   game: string;
   rating: number;
